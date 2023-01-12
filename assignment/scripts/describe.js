@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// The variable is called name and is set to Dane
+// If variable is set to Mary(which it is not) then console says Hi, Mary
+// Since the variable is not set to Mary, then the code should say 'How do you do'
 //
 
 //CODE
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Stating the existence of the variables secret and code
+// Variable called code is equal to 123
+// If code is equal to 123(which it true) then the variable secret is equal to the string called super
+// also, code is equal to code * 2 (246)
+// If code is greater than 250 (which is false) then secret is not duper
+// We would console.log the value (super)
 
 //CODE
 /*
@@ -70,10 +72,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// State of variables isStudent which is true, the variable age which is = 34, the variable zip with is equal 55407
+// if isStudent is true(which it is) & zip is > 80000(which is false) then You're a student on the West Coast(this conditional statement is false)
+// and if the variable isStudent is false or their age is less than 30 than console would say What are your hobbies?
+// if isStudent is true(which it is), then console would say ('Welcome to Prime')
+// if all of the above statements are false, then console says ('How about the weather')
 
 //CODE
 /*
@@ -135,6 +138,7 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  //FIX - colorOne and colorTwo would need to be coded as: colorOne + colorTwo = 'purple'
   colorOne = 'purple';
 }
 */
@@ -147,6 +151,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - next line should be: if (temp >= 39 || time >= 4) the greater than symbole should have the equals sign after to get a return of true
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +165,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX - If I am reading this block of code correctly, 'no entry' will actually run before 'enter' which is the desired console.log we wish to run
+// I believe the best way to fix this issue is to switch the line 'console.log('no entry');' and 'console.log('enter');' so that 'enter' runs first, that way if the age is greater than 21 there is 'no entry'
 if(minAge <= age) {
   console.log('no entry');
 } else {
